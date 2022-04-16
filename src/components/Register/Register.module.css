@@ -1,0 +1,56 @@
+.container{
+    border: 1px solid rgb(199, 199, 199);
+    margin:0 auto;
+    width: 30%;
+    height:520px;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    box-shadow:bisque -11px 11px 0px 0px ;
+}
+.container h1{
+    text-align: center;
+    margin-left: -25px;
+}
+.container input{
+    width:90%;
+    padding:10px 0px;
+    outline-style: none;
+    font-size: 22px;
+}
+.container button{
+    width: 90%;
+    padding: 10px 0px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container button:hover{
+    background-color: rgb(240, 240, 240);
+    border: 0px;
+}
+.container p{
+    text-align: center;
+    margin-left: -25px;
+}
+.container a{
+    text-decoration: none;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+.or div{
+width: 35%;
+height: 2px;
+background-color: black;
+}
+.or span{
+    padding:0px 5px;
+}
